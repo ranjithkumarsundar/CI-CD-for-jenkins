@@ -13,7 +13,7 @@ pipeline {
        stages {
             stage('SCM checkout') {
                   steps {
-                        git url: 'https://github.com/Anusha-DevOp/CI-CD-for-PHP.git'
+                        git url: 'https://github.com/ranjithkumarsundar/CI-CD-for-jenkins.git'
                         }
              }
              
